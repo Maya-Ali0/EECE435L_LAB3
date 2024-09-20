@@ -1,0 +1,4 @@
+instructor_id,name,age,email,assigned_courses
+K29018,Dr. Jaden,28,jaden@example.com,"['TIK201', 'CS101']"
+2022014666,tofi,21,tofi@mail.aub,[]
+202201460,tofi,21,tofi@mail.aub,['EECE435L']

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>lab3 package &mdash; School Management System 0.00 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=c8db430a"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="lab3" href="modules.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            School Management System
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">lab3</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">lab3 package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-lab3.main_menu_sql">lab3.main_menu_sql module</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#lab3.main_menu_sql.SchoolManagementApp"><code class="docutils literal notranslate"><span class="pre">SchoolManagementApp</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#module-lab3">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">School Management System</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">lab3</a></li>
+      <li class="breadcrumb-item active">lab3 package</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/lab3.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="lab3-package">
+<h1>lab3 package<a class="headerlink" href="#lab3-package" title="Link to this heading"></a></h1>
+<section id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Link to this heading"></a></h2>
+</section>
+<section id="module-lab3.main_menu_sql">
+<span id="lab3-main-menu-sql-module"></span><h2>lab3.main_menu_sql module<a class="headerlink" href="#module-lab3.main_menu_sql" title="Link to this heading"></a></h2>
+<dl class="py class">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">lab3.main_menu_sql.</span></span><span class="sig-name descname"><span class="pre">SchoolManagementApp</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">root</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp" title="Link to this definition"></a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>A GUI application for managing students, instructors, and courses in a school.</p>
+<p>This application allows users to add, edit, and manage records of students, instructors,
+and courses, providing an interface for interaction with a SQLite database.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.add_course">
+<span class="sig-name descname"><span class="pre">add_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.add_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.add_course" title="Link to this definition"></a></dt>
+<dd><p>Adds a new course to the database.</p>
+<p>This method retrieves the course ID and course name from the input fields,
+validates the input data, and then inserts the course into the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ValueError</strong> – If any of the input fields are empty or invalid.</p></li>
+<li><p><strong>Exception</strong> – If any other error occurs during the insertion process.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.add_instructor">
+<span class="sig-name descname"><span class="pre">add_instructor</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.add_instructor"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.add_instructor" title="Link to this definition"></a></dt>
+<dd><p>Adds a new instructor to the database.</p>
+<p>This method retrieves the instructor’s name, age, email, and ID from the input fields,
+validates the input data, and then inserts the instructor into the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ValueError</strong> – If any of the input fields are empty or invalid.</p></li>
+<li><p><strong>Exception</strong> – If any other error occurs during the insertion process.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.add_student">
+<span class="sig-name descname"><span class="pre">add_student</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.add_student"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.add_student" title="Link to this definition"></a></dt>
+<dd><p>Adds a new student to the database.</p>
+<p>This method retrieves the student’s name, age, email, and ID from the input fields,
+validates the input data, and then inserts the student into the database.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ValueError</strong> – If any of the input fields are empty or invalid.</p></li>
+<li><p><strong>Exception</strong> – If any other error occurs during the execution of this method.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.assign_instructor_to_course">
+<span class="sig-name descname"><span class="pre">assign_instructor_to_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.assign_instructor_to_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.assign_instructor_to_course" title="Link to this definition"></a></dt>
+<dd><p>Assigns the manually entered instructor to the selected course.</p>
+<p>This method retrieves the Instructor ID and selected course, validates them,
+and updates the course to assign the instructor.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>ValueError</strong> – If the instructor ID or course is not found.</p></li>
+<li><p><strong>Exception</strong> – If any other error occurs during the assignment process.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.back_to_menu">
+<span class="sig-name descname"><span class="pre">back_to_menu</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.back_to_menu"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.back_to_menu" title="Link to this definition"></a></dt>
+<dd><p>Clears the window and brings back the main menu.</p>
+<p>This method is used to reset the current view and display the main menu.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.clear_window">
+<span class="sig-name descname"><span class="pre">clear_window</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.clear_window"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.clear_window" title="Link to this definition"></a></dt>
+<dd><p>Clears the window by destroying all its child widgets.</p>
+<p>This method iterates over all child widgets of the root window and destroys them.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.create_course_form">
+<span class="sig-name descname"><span class="pre">create_course_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.create_course_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.create_course_form" title="Link to this definition"></a></dt>
+<dd><p>Creates a form to add a new course.</p>
+<p>This method clears the current window, sets up the form layout, and defines
+the input fields for course ID and course name.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.create_instructor_assignment_form">
+<span class="sig-name descname"><span class="pre">create_instructor_assignment_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.create_instructor_assignment_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.create_instructor_assignment_form" title="Link to this definition"></a></dt>
+<dd><p>Creates a form for assigning an instructor to a course.</p>
+<p>This method clears the current window, sets up the assignment form layout,
+and defines input fields for Instructor ID and available courses.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.create_instructor_form">
+<span class="sig-name descname"><span class="pre">create_instructor_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.create_instructor_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.create_instructor_form" title="Link to this definition"></a></dt>
+<dd><p>Creates a form to add a new instructor.</p>
+<p>This method clears the current window, sets up a form with fields for
+instructor name, age, email, and ID, and adds buttons to add the instructor
+and return to the menu.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.create_menu">
+<span class="sig-name descname"><span class="pre">create_menu</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.create_menu"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.create_menu" title="Link to this definition"></a></dt>
+<dd><p>Creates the main menu with buttons to add Students, Instructors, and Courses.</p>
+<p>This method creates a title label and a menu frame. It then adds buttons for adding students,
+instructors, courses, registering students for courses, assigning instructors to courses,
+displaying all records, and searching in records.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.create_registration_form">
+<span class="sig-name descname"><span class="pre">create_registration_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.create_registration_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.create_registration_form" title="Link to this definition"></a></dt>
+<dd><p>Creates a form for students to register for available courses.</p>
+<p>This method clears the current window, sets up the registration form layout,
+and defines input fields for Student ID and available courses.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.create_search_form">
+<span class="sig-name descname"><span class="pre">create_search_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.create_search_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.create_search_form" title="Link to this definition"></a></dt>
+<dd><p>Creates a search form to filter and display records by name, ID, or course.</p>
+<p>This method sets up the search interface, allowing the user to specify search criteria
+and a search term. The user can select which category (students, instructors, courses) to search.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.create_student_form">
+<span class="sig-name descname"><span class="pre">create_student_form</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.create_student_form"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.create_student_form" title="Link to this definition"></a></dt>
+<dd><p>Creates a form to add a new student.</p>
+<p>This method clears the current window, sets up the form layout, and defines the
+input fields for student name, age, email, and student ID.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.delete_record">
+<span class="sig-name descname"><span class="pre">delete_record</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tree</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">record_type</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.delete_record"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.delete_record" title="Link to this definition"></a></dt>
+<dd><p>Deletes a selected record from the specified category (student, instructor, or course).</p>
+<p>This method prompts the user for confirmation before proceeding with the deletion.
+Upon successful deletion, the record is removed from both the database and the Treeview.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tree</strong> – The Treeview widget containing the records.</p></li>
+<li><p><strong>record_type</strong> – The type of record to delete (“student”, “instructor”, or “course”).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.display_all_records">
+<span class="sig-name descname"><span class="pre">display_all_records</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.display_all_records"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.display_all_records" title="Link to this definition"></a></dt>
+<dd><p>Displays all students, instructors, and courses in a tabular format using a Treeview widget.</p>
+<p>This method creates a notebook with three tabs: Students, Instructors, and Courses.
+Each tab contains a Treeview that lists records and provides buttons for editing and deleting.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.edit_record">
+<span class="sig-name descname"><span class="pre">edit_record</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tree</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">record_type</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.edit_record"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.edit_record" title="Link to this definition"></a></dt>
+<dd><p>Edits a selected record in the specified category (student, instructor, or course).</p>
+<p>This method prompts the user to enter new details for the selected record. If the user
+enters ‘NA’, the current value is retained. Updates are reflected in both the database
+and the Treeview.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>tree</strong> – The Treeview widget containing the records.</p></li>
+<li><p><strong>record_type</strong> – The type of record to edit (“student”, “instructor”, or “course”).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.load_courses">
+<span class="sig-name descname"><span class="pre">load_courses</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.load_courses"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.load_courses" title="Link to this definition"></a></dt>
+<dd><p>Loads available courses from the database.</p>
+<p>This method executes a query to fetch all course IDs and returns them as a list.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>List of course IDs.</p>
+</dd>
+<dt class="field-even">Raises<span class="colon">:</span></dt>
+<dd class="field-even"><p><strong>sqlite3.Error</strong> – If an error occurs while accessing the database.</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.register_student_for_course">
+<span class="sig-name descname"><span class="pre">register_student_for_course</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.register_student_for_course"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.register_student_for_course" title="Link to this definition"></a></dt>
+<dd><p>Registers the student for the selected course.</p>
+<p>This method retrieves the Student ID and selected course, validates them,
+and then inserts the registration into the student_courses table.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Raises<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>Exception</strong> – If the student ID or course is invalid or if any other error occurs.</p>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="lab3.main_menu_sql.SchoolManagementApp.search_records">
+<span class="sig-name descname"><span class="pre">search_records</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="_modules/lab3/main_menu_sql.html#SchoolManagementApp.search_records"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#lab3.main_menu_sql.SchoolManagementApp.search_records" title="Link to this definition"></a></dt>
+<dd><p>Filters and displays records based on the search criteria.</p>
+<p>This method executes the search based on the selected category and criteria,
+retrieving relevant records from the database and displaying them in a Treeview.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</section>
+<section id="module-lab3">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-lab3" title="Link to this heading"></a></h2>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="modules.html" class="btn btn-neutral float-left" title="lab3" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Maya Ali.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

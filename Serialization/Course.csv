@@ -1,0 +1,6 @@
+course_id,course_name,instructor,enrolled_students
+CS202,CS201,,[]
+CS102,Intro to prog2,,[]
+CS103,Intro to prog3,,[]
+CS104,Intro to prog4,,[]
+CS101,Intro to prog,,['202806400']

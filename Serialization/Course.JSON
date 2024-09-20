@@ -1,0 +1,34 @@
+[
+    {
+        "course_id": "CS202",
+        "course_name": "CS201",
+        "instructor": null,
+        "enrolled_students": []
+    },
+    {
+        "course_id": "CS102",
+        "course_name": "Intro to prog2",
+        "instructor": null,
+        "enrolled_students": []
+    },
+    {
+        "course_id": "CS103",
+        "course_name": "Intro to prog3",
+        "instructor": null,
+        "enrolled_students": []
+    },
+    {
+        "course_id": "CS104",
+        "course_name": "Intro to prog4",
+        "instructor": null,
+        "enrolled_students": []
+    },
+    {
+        "course_id": "CS101",
+        "course_name": "Intro to prog",
+        "instructor": null,
+        "enrolled_students": [
+            "202806400"
+        ]
+    }
+]

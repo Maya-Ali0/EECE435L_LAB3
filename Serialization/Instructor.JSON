@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Dr. Jaden",
+        "age": 28,
+        "email": "jaden@example.com",
+        "instructor_id": "K29018",
+        "assigned_courses": [
+            "TIK201",
+            "CS101"
+        ]
+    },
+    {
+        "name": "tofi",
+        "age": 21,
+        "email": "tofi@mail.aub",
+        "instructor_id": "2022014666",
+        "assigned_courses": []
+    },
+    {
+        "name": "tofi",
+        "age": 21,
+        "email": "tofi@mail.aub",
+        "instructor_id": "202201460",
+        "assigned_courses": [
+            "EECE435L"
+        ]
+    }
+]
